@@ -17,7 +17,7 @@ export default component$(() => {
                 vis.value = 0;
                 setTimeout(() => {
                     vis.value = Math.floor(Math.random() * 2) + 2
-                }, (Math.floor(Math.random() * 3) + 3) * 1000)
+                }, (Math.floor(Math.random() + 3) * 1000)
             }}>
             <div class="flex justify-center items-center h-screen">
                 {(() => {
